@@ -1,24 +1,15 @@
-# README
+APPHACKINCLASS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Git clone le projet. Placez-vous à la racine de celui-ci, entrez dans le fichier à l'intérieur de celui-ci (cd the_hacking_class) puis dans le terminal :
 
-Things you may want to cover:
+$ bundle install
 
-* Ruby version
+$ rails db:migrate => si il y a des migrations down.
 
-* System dependencies
+$ rails db:seed => vous charge une base de donnée aléatoire.
 
-* Configuration
+$ rails console => dirigez vous dans la console rails
 
-* Database creation
+Pour visualisez les tableaux de données , entrez
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$ tp User.all si vous souhaitez obtenir la liste des users par exemple
